@@ -1,0 +1,26 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "first full stack todo app",
+  "main": "sever.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatashaChuza/Fullstack-Todo.git"
+  },
+  "author": "Natasha Chuza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatashaChuza/Fullstack-Todo/issues"
+  },
+  "homepage": "https://github.com/NatashaChuza/Fullstack-Todo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9",
+    "path": "^0.12.7"
+  }
+}
